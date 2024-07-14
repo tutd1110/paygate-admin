@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: gainsboro;
+}
+::-webkit-scrollbar-thumb {
+    background: #b6cad2;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #5b91a6;
+}
+.scroll_bar,
+.scroll_bar--bottom {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.table-responsive {
+    width: 150%;
+    overflow: auto;
+}
+.scroll_bar--top{
+    width: 150%;
+    height: 8px;
+}
+.count_random{
+    display: inline-block;
+    padding-top: 4px;
+    margin-left: -1px;
+    font-size: 14px;
+    height: 29px;
+    text-align: center;
+}
+.count_random--top{
+    display: inline-block;
+    padding-top: 3px;
+    font-size: 14px;
+    height: 29px;
+    text-align: center;
+}
+

@@ -1,0 +1,123 @@
+.loading-spinner{
+    width:30px;
+    height:30px;
+    border:2px solid indigo;
+    border-radius:50%;
+    border-top-color:#0001;
+    display:inline-block;
+    animation:loadingspinner .7s linear infinite;
+}
+@keyframes loadingspinner{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+.button_status {
+    cursor: pointer;
+}
+.loading{
+    display: none !important;
+}
+#table-responsive{
+    overflow-y: auto;
+    max-height: 500px;
+}
+#table-responsive::-webkit-scrollbar {
+    width: 5px;
+}
+#table-responsive::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+#table-responsive::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.tbody-orders > td {
+    word-break: break-all;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: gainsboro;
+}
+::-webkit-scrollbar-thumb {
+    background: #b6cad2;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #5b91a6;
+}
+.scroll_bar,
+.scroll_bar--bottom {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.scroll_bar--bottom .table-responsive {
+    min-width: 150%;
+    overflow: initial;
+    word-break: break-all;
+}
+.scroll_bar--top{
+    min-width: 150%;
+    height: 8px;
+    word-break: break-all;
+}
+@media only screen and (max-width: 1023px) {
+    .date_flex{
+        display: flow-root !important;
+        align-items: inherit !important;
+        justify-content:inherit !important;
+    }
+    .mt-table{
+        margin-top: 30px ;
+    }
+  }
+  @media only screen and (max-width: 1750px) {
+    .date_flex{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .mt-table{
+        margin-top: 30px ;
+    }
+    .scroll_bar--bottom .table-responsive {
+        min-width: 150% !important;
+        overflow: initial;
+        word-break: inherit;
+    }
+    .scroll_bar--top{
+        min-width: 150% !important;
+        height: 8px;
+        word-break: inherit;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .date_flex{
+        display: flow-root !important;
+        align-items: inherit !important;
+        justify-content:inherit !important;
+        flex: inherit !important;
+        max-width: inherit !important;
+    }
+}
+select {
+    -webkit-appearance: none !important;
+}
+.btn-new{
+    background:#5f27cd;
+    color:white;
+}
+

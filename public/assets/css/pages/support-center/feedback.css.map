@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///../src/assets/sass/pages/support-center/feedback.scss"],"names":[],"mappings":"AAAA;AACA,eAAe","file":"css/pages/support-center/feedback.css","sourcesContent":[".kt-sc-feedback .kt-sc__bg svg {\n  width: 650px; }\n"],"sourceRoot":""}

@@ -1,0 +1,31 @@
+.table tr th {
+    font-weight: bold;
+    text-align: center;
+}
+
+.table tr td.number {
+    text-align: right;
+}
+
+.btn i {
+    padding-right: 0px;
+}
+
+.daterangepicker {
+    z-index: 100000000000;
+}
+
+.kt-aside__brand-logo span,
+.kt-header-mobile__logo span {
+    color: #0072bc;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    top: 10px;
+}
+
+.kt-aside--minimize .kt-aside__brand-logo span,
+.kt-aside--minimize .kt-header-mobile__logo span,
+{
+    display: none;
+}
